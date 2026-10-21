@@ -1,0 +1,38 @@
+# ===== Java / Maven =====
+target/
+*.class
+*.jar
+*.war
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ===== Node.js =====
+node_modules/
+npm-debug.log*
+
+# ===== Datos generados por los suscriptores =====
+*.db
+*.sqlite
+*.sqlite3
+pedidos.txt
+
+# ===== Secretos y configuración local =====
+.env
+
+# ===== Editores =====
+.vscode/
+.idea/
+*.iml
+
+# ===== Sistema operativo =====
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ===== Logs =====
+*.log
