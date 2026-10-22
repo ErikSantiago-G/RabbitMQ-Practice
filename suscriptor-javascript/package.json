@@ -1,0 +1,17 @@
+{
+  "name": "suscriptor-javascript",
+  "version": "1.0.0",
+  "description": "Suscriptor 2: recibe pedidos de RabbitMQ y los agrega a pedidos.txt",
+  "main": "suscriptor.js",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "start": "node suscriptor.js"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "amqplib": "^2.2.0"
+  }
+}
